@@ -1,0 +1,1107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=435">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>Slim4Vit</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,900,700,300,300italic&subset=latin,cyrillic-ext" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700&subset=latin,cyrillic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Rubik:400,700,900,500&subset=latin,cyrillic" rel="stylesheet" type="text/css">
+    <link href="css/normalize.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+
+<body data-invalid-name-text="Insira o nome correcto, por favor!" data-invalid-phone-text="Insira o número de telemóvel correcto, para podermos entrar em contacto consigo!">
+    <div class="container">
+        <div class="block1">
+            <div class="top-block mob">
+                <div class="wrapper">
+                    <div class="item1">Seguro em
+                        <br>qualquer idade </div>
+                    <div class="item2">Eficácia comprovada -
+                        <br><b></b> MEIO EFICAZ</div>
+                    <div class="item3">Em <b>2016</b>, foram vendidas
+                        <br>304 342 unidades</div>
+                    <div class="button-block">
+                        <button onclick="to_form(); return false;">Pedir consulta</button>
+                    </div>
+                </div>
+            </div>
+            <div class="top-block mob2">
+                <div class="wrapper">
+                    <div class="item1">Seguro em
+                        <br>qualquer idade
+                    </div>
+                    <div class="item2">
+                        <br><b>MEIO EFICAZ</b></div>
+                    <div class="item3">Em <b>2016</b>, foram vendidas
+                        <br>304 342 unidades</div>
+                    <div class="button-block">
+                        <button onclick="to_form(); return false;">Pedir consulta</button>
+                    </div>
+                </div>
+            </div>
+            <div class="wrapper">
+                <div class="top-block desk">
+                    <div class="item1">Seguro em
+                        <br>qualquer idade
+                    </div>
+                    <div class="item2">
+                        <br><b>MEIO EFICAZ</b> </div>
+                    <div class="item3">Em <b>2016</b>, foram vendidas
+                        <br>304 342 unidades</div>
+                    <div class="button-block">
+                        <button onclick="to_form(); return false;">Pedir consulta</button>
+                    </div>
+                </div>
+                <div class="title">BEBIDA INSTANTÂNEA DE MISTURA DE Slim4Vit
+                     ATÉ <span class="pink"> 10 KG DE PESO </span> EM 2 SEMANAS!
+                </div>
+                <div class="title2">EVITE A OBESIDADE E REDUZA O RISCO DE INFARTE, DIABETES E HIPERTENSÃO EM 89%</div>
+                <div class="left-block">
+                    <div class="item">Desintegra a GORDURA eficazmente devido aos ácidos alfa da fruta da Slim4Vit
+                    </div>
+                    <div class="item">Reduz o risco de diabetes, e de hipertensão ao mínimo
+                    </div>
+                    <div class="item">Elimina os perigos da <br>obesidade na vida dos <br> órgãos internos
+                    </div>
+                    <div class="bottom desk">* Suprime o apetite</div>
+                    <div class="prod">
+                        <img src="img/product.png" alt="">
+                    </div>
+                   <div class="label">
+                        <div class="line1">Preço antigo:</div>
+                        <div class="line2"><span class="landing___price__old_value wv_old-price">78</span> <span class="landing___price__currency wv_currency">eur</span></div>
+                        <div class="line3">Novo preço:</div>
+                        <div class="line4"><span class="landing___price__main_value wv_new-price">39</span></div>
+                        <div class="line5"><span class="landing___price__currency wv_currency">eur</span></div>
+                    </div>
+                </div>
+                <div class="right-block">
+                    <div class="title-form">
+                        PROMOÇÃO! <br><span class="pink">DESCONTO DE 50%</span>
+                    </div>
+                    <div class="desc-form">A promoção termina em:</div>
+                    <div class="timer-block">
+                        <div class="hours">00</div>
+                        <div class="mins">30</div>
+                        <div class="secs">00</div>
+                    </div>
+                    <form method="POST" action="order.php" class="x_order_form wv_order-form">
+                        <div class="line c-s">
+                            <div class="x_country_select">
+                                <select id="id_country" class="country-select country_select" name="id_country" style="visibility: hidden; height: 1px">
+                                   <option value="pt">Portugal</option>
+                                   <option value="at">Austria</option>
+                                   <option value="it">Italy</option>
+                                   <option value="es">Spain</option>
+                                   <option value="fr">France</option>
+                                   <option value="lv">Latvia</option>
+                                   <option value="ee">Estonia</option>
+                                   <option value="lt">Lithuania</option>
+                                   <option value="de">Germany</option>
+                                   <option value="pl">Poland</option>
+                                   <option value="hu">Hungary</option>
+                                   <option value="bg">Bulgaria</option>
+                                   <option value="RU">Russia</option>
+                             </select>
+                         </div>
+                        </div>
+                        <div class="line name-inp">
+                            <input type="text" name="name" placeholder="O seu nome" class="wv_name" required>
+                        </div>
+                        <div class="line phone-inp">
+                            <input type="text" name="phone" placeholder="O seu telefone" class="wv_phone" required>
+                        </div>
+                        <div class="button-line">
+                             <button type="submit"></button>
+                        </div>
+                        <input name="ym" type="hidden" class="" value="default">
+                        <input name="utm_source" type="hidden" class="">
+                        <input name="utm_medium" type="hidden" class="">
+                        <input name="utm_campaign" type="hidden" class="">
+                        <input name="utm_content" type="hidden" class="">
+                        <input name="utm_term" type="hidden" class="">
+                        <input name="referer" type="hidden" class="" value="default">
+                        <input name="guid" type="hidden" class="">
+                        <input name="first_guid" type="hidden" class="">
+                        <input name="landing_id" type="hidden" class="">
+                        <input name="prelanding_id" type="hidden" class="">
+                        <input name="offer_id" type="hidden" class="">
+                        <input name="url" type="hidden" class="">
+                    </form>
+                    <div class="left-text">
+                        Unidades
+                        <br>restantes
+                        <br> em promoção:
+                    </div>
+                    <div class="right-text">
+                        <div class="big">7</div>
+                        <div class="small">unidades</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="block2">
+            <div class="wrapper">
+                <div class="title">Isso soa familiar?</div>
+                <div class="left-block desk">
+                    <div class="text">Fico sem folego ao subir as escadas</div>
+                    <div class="text text2">Suo frequentemente, sobretudo no verão</div>
+                    <div class="text">O meu humor muda várias vezes ao longo do dia</div>
+                    <div class="text">Durmo mal à noite e de dia ando com sono</div>
+                </div>
+                <div class="right-block desk">
+                    <div class="text">Sinto uma dor forte nas articulações e na zona lombar</div>
+                    <div class="text text2">No fim do dia os meus pés estão muito cansados</div>
+                    <div class="text">A pressão aumenta e a cabeça dói-me</div>
+                    <div class="text">Tenho mais de 38 anos</div>
+                </div>
+                <div class="mob">
+                    <div class="left-block">
+                        <div class="text">
+                            <img src="img/img1.png">
+                            <br> Fico sem folego ao subir as escadas</div>
+                        <div class="text">
+                            <img src="img/img2.png">
+                            <br>Suo frequentemente, sobretudo no verão</div>
+                        <div class="text"><img src="img/img3.png">
+                            <br>O meu humor muda várias vezes ao longo do dia</div>
+                        <div class="text"><img src="img/img4.png">
+                            <br>Durmo mal à noite e de dia ando com sono</div>
+                        <div class="text"><img src="img/img5.png">
+                            <br>Sinto uma dor forte nas articulações e na zona lombar</div>
+                        <div class="text"><img src="img/img6.png">
+                            <br>No fim do dia os meus pés estão muito cansados</div>
+                        <div class="text"><img src="img/img7.png">
+                            <br>A pressão aumenta e a cabeça dói-me</div>
+                        <div class="text"><img src="img/img8.png">
+                            <br>Tenho mais de 38 anos</div>
+                    </div>
+                </div>
+                <div class="mob2">
+                    <div class="left-block">
+                        <div class="text">
+                            <img src="img/img1.png">
+                            <br> Fico sem folego ao subir as escadas</div>
+                        <div class="text">
+                            <img src="img/img2.png">
+                            <br>Suo frequentemente, sobretudo no verão</div>
+                        <div class="text"><img src="img/img3.png">
+                            <br>O meu humor muda várias vezes ao longo do dia</div>
+                        <div class="text"><img src="img/img4.png">
+                            <br>Durmo mal à noite e de dia ando com sono</div>
+                        <div class="text"><img src="img/img5.png">
+                            <br>Sinto uma dor forte nas articulações e na zona lombar</div>
+                        <div class="text"><img src="img/img6.png">
+                            <br>No fim do dia os meus pés estão muito cansados</div>
+                        <div class="text"><img src="img/img7.png">
+                            <br>A pressão aumenta e a cabeça dói-me</div>
+                        <div class="text"><img src="img/img8.png">
+                            <br>Tenho mais de 38 anos</div>
+                    </div>
+                </div>
+                <div class="line">
+                    <div class="text">
+                        Se respondeu <span class="red">SIM</span> a uma ou várias perguntas,
+                        <div class="text-bold">então o seu risco de obesidade e das suas
+                            <br> terríveis consequências é muito alto!</div>
+                    </div>
+                </div>
+                <div class="title2">Saiba qual o risco do seu estado</div>
+                <div class="calc-form">
+                    <div class="bg-block">
+                        <div class="left">
+                            <div class="line-input">
+                                <input type="text" placeholder="A sua idade" class="inp1">
+                            </div>
+                            <div class="line-input">
+                                <input type="text" placeholder="A sua altura" class="inp2">
+                            </div>
+                            <div class="line-input">
+                                <input type="text" placeholder="O seu peso" class="inp3">
+                            </div>
+                        </div>
+                        <div class="right">
+                            <div class="line1" style="visibility: hidden;">OBESIDADE DE
+                                <br>3º GRAU</div>
+                            <div class="line2" style="visibility: hidden;">Comece o tratamento imediatamente!</div>
+                            <div class="arrow"><img src="img/arrow.png" alt=""></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="block3">
+            <div class="wrapper">
+                <div class="title">14 MILHÕES DE MULHERES
+                    <br>
+                    <div class="title title2">já sofrem de obesidade de 1º, 2º e
+                        <br>3º graus!</div>
+                </div>
+                <div class="left-block desk">
+                    <div class="text">
+                        Se o seu peso está 10% acima do normal, é maior
+                        <br>o risco
+                        <div class="text text2">de ataque de
+                            <br>insuficiência
+                            <br>coronária</div>
+                    </div>
+                    <div class="title title3">ATAQUE
+                        <br>E HIPERTENSÃO
+                    </div>
+                </div>
+                <div class="right-block desk">
+                    <div class="text">
+                        <div class="text text2">A diabetes
+                            <br>é chamada de assassino silencioso.
+                        </div>
+                        O risco de doença
+                        <br>aumenta à medida que GANHA peso extra
+                    </div>
+                    <div class="title title3">DIABETES
+                    </div>
+                </div>
+                <div class="title title4 desk">
+                    OBESIDADE
+                    <div class="class title5">DOS ÓRGÃOS INTERNOS</div>
+                </div>
+            </div>
+        </div>
+        <div class="block4">
+            <div class="wrapper">
+                <div class="right-block desk">
+                    <div class="name name1">OBESIDADE DO CORAÇÃO</div>
+                    <div class="text">As células gordas penetram nos tecidos do músculo do coração.
+                        <br>
+                        <div class="text text_bold">Os primeiros sintomas são o ardor no peito.</div>
+                    </div>
+                    <div class="name name2">OBESIDADE DOS PULMÕES</div>
+                    <div class="text">A obesidade pulmonar é hipertensão pulmonar que conduz à falência traumática ventricular.
+                        <br>
+                        <div class="text text_bold">Os primeiros sintomas são a dificuldade em respirar.</div>
+                    </div>
+                    <div class="name name3">OBESIDADE DO FÍGADO</div>
+                    <div class="text">A obesidade do fígado é a gordura hepática que conduz à cirrose aguda.
+                        <br>
+                        <div class="text text_bold">Os primeiros sintomas são a sonolência e a fraqueza.</div>
+                    </div>
+                    <button onclick="to_form();"></button>
+                </div>
+                <div class="right-block mob">
+                    <div class="item">
+                        <div class="img-b"><img src="img/img9.png"></div>
+                        <div class="name name1">OBESIDADE DO CORAÇÃO</div>
+                        <div class="text">As células gordas penetram nos tecidos do músculo do coração.
+                            <br>
+                            <div class="text text_bold">Os primeiros sintomas são o ardor no peito.</div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="img-b"><img src="img/img10.png"></div>
+                        <div class="name name2">OBESIDADE DOS PULMÕES</div>
+                        <div class="text">A obesidade pulmonar é hipertensão pulmonar que conduz à falência traumática ventricular.
+                            <br>
+                            <div class="text text_bold">Os primeiros sintomas são a dificuldade em respirar.</div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="img-b"><img src="img/img11.png"></div>
+                        <div class="name name3">OBESIDADE DO FÍGADO</div>
+                        <div class="text">A obesidade do fígado é a gordura hepática que conduz à cirrose aguda.
+                            <br>
+                            <div class="text text_bold">Os primeiros sintomas são a sonolência e a fraqueza.</div>
+                        </div>
+                    </div>
+                    <button onclick="to_form();"></button>
+                </div>
+                <div class="right-block mob2">
+                    <div class="item">
+                        <div class="img-b"><img src="img/img9.png"></div>
+                        <div class="name name1">OBESIDADE DO CORAÇÃO</div>
+                        <div class="text">As células gordas penetram nos tecidos do músculo do coração.
+                            <br>
+                            <div class="text text_bold">Os primeiros sintomas são o ardor no peito.</div>
+                        </div>
+                        <div class="item">
+                            <div class="img-b"><img src="img/img10.png"></div>
+                            <div class="name name2">OBESIDADE DOS PULMÕES</div>
+                            <div class="text">A obesidade pulmonar é hipertensão pulmonar que conduz à falência traumática ventricular.
+                                <br>
+                                <div class="text text_bold">Os primeiros sintomas são a dificuldade em respirar.</div>
+                            </div>
+                            <div class="item">
+                                <div class="img-b"><img src="img/img11.png"></div>
+                                <div class="name name3">OBESIDADE DO FÍGADO</div>
+                                <div class="text">A obesidade do fígado é a gordura hepática que conduz à cirrose aguda.
+                                    <br>
+                                    <div class="text text_bold">Os primeiros sintomas são a sonolência e a fraqueza.</div>
+                                </div>
+                            </div>
+                            <button onclick="to_form();"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="block5">
+            <div class="wrapper">
+                <div class="title">Comece o <span class="green">COMBATE CONTRA O PESO <br>EM EXCESSO  </span> agora!</div>
+                <div class="item item1">
+                    <div class="img-b mob"><img src="img/img12.png"></div>
+                    <div class="img-b mob2"><img src="img/img12.png"></div>Sem dietas
+                    <br>prejudiciais para
+                    <br>o estômago</div>
+                <div class="item item2">
+                    <div class="img-b mob"><img src="img/img13.png"></div>
+                    <div class="img-b mob2"><img src="img/img13.png"></div>Sem exercícios
+                    <br>prejudiciais ao coração </div>
+                <div class="item item3">
+                    <div class="img-b mob"><img src="img/img14.png"></div>
+                    <div class="img-b mob2"><img src="img/img14.png"></div>Sem jejuns
+                    <br> penosos</div>
+                <div class="bottom-block">
+                    Use o método cuja eficácia
+                    <br>convence o país inteiro!
+                </div>
+            </div>
+        </div>
+        <div class="block6">
+            <div class="wrapper">
+                <div class="left-block desk">
+                    <div class="top-block">
+                        Já alguma vez viu um habitante da
+                        <br> Ásia que sofresse de obesidade?
+                        <br>
+                        <br> Sabe qual é o segredo da sua
+                        <br>harmonia e longevidade?
+                    </div>
+                    <div class="text-block">
+                        <span class="green">O FRUTO <br>DA Slim4Vit</span> FAZ PARTE DO REGIME ALIMENTAR DOS HABITANTES DA ÁSIA
+                    </div>
+                </div>
+                <div class="left-block mob">
+                    <div class="top-block">
+                        Já alguma vez viu um habitante da
+                        <br> Ásia que sofresse de obesidade?
+                        <br>
+                        <br> Sabe qual é o segredo da sua
+                        <br>harmonia e longevidade?
+                    </div>
+                    <div class="text-block">
+                        <span class="green">O FRUTO <br>DA Slim4Vit</span> FAZ PARTE DO REGIME ALIMENTAR DOS HABITANTES DA ÁSIA
+                    </div>
+                </div>
+                <div class="left-block mob2">
+                    <div class="top-block">
+                        Já alguma vez viu um habitante da
+                        <br> Ásia que sofresse de obesidade?
+                        <br>
+                        <br> Sabe qual é o segredo da sua
+                        <br>harmonia e longevidade?
+                    </div>
+                    <div class="text-block">
+                        <span class="green">O FRUTO <br>DA Slim4Vit</span> FAZ PARTE DO REGIME ALIMENTAR DOS HABITANTES DA ÁSIA
+                    </div>
+                </div>
+                <div class="right-block">
+                    <div class="prod"><img src="img/product2.png" alt=""></div>
+                    <div class="desc">O crescimento de doenças por causa da obesidade atingiu um nível crítico na Portugal em 2016.</div>
+                    <div class="yellow-block">
+                        <div class="line1">
+                            A bebida instantânea da Slim4Vit é 25 vezes mais eficaz do que a fruta!
+                        </div>
+                        <div class="line2">
+                            Num só frasco concentram-se 25 frutos de Slim4Vit. Assim, você emagrece tão rapidamente!
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="block7">
+            <div class="wrapper">
+                <div class="title">Como é que Slim4Vit
+                    <br><span class="green">influencia a sua saúde</span></div>
+                <div class="item1">
+                    <div class="block-text">
+                        <b>A bebida instantânea da Slim4Vit <br>controla as xantonas que são os <br>antioxidantes mais poderosos!</b>
+                        <br>
+                        <br> Retira as substâncias tóxicas, as escórias,
+                        <br>as toxinas, a gordura antiga, que não são derivados de si próprios.
+                        <br>
+                        <br>Previnem a obesidade interna dos órgãos.
+                    </div>
+                </div>
+                <div class="title2">Como a bebida de Slim4Vit
+                    <br><span class="pink">afeta o seu aspeto</span></div>
+                <div class="item2">
+                    <div class="block-text">
+                        <b>Os ácidos alfa da fruta de Slim4Vit
+são <br>absorvidos através do sangue e <br> metabolizam 
+a gordura de forma segura.</b>
+                        <br>
+                        <br> As ancas ficam mais esguias, a barriga
+                        <br> encolhe, a celulite desaparece bem como
+                        <br>o excesso de peso.
+                    </div>
+                </div>
+                <div class="block-bottom">
+                    <div class="title-block">
+                        A fome desaparece!
+                    </div>
+                    <div class="text">MEIO EFICAZ</div>
+                    <div class="button-block">
+                        <button onclick="to_form(); return false;"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="block8">
+            <div class="wrapper">
+                <div class="title">Opinião do dietista</div>
+                <div class="right-block">
+                    <div class="text">Infelizmente, no nosso país, perde-se peso apenas por uma questão de beleza, esquecendo-se que o excesso de peso é uma ameaça para a vida!
+                        <br>
+                        <br>Se você sente que seu peso não é normal, tome medidas imediatamente!!
+                        <div class="text text-bold">
+                            <br>Nos países desenvolvidos, há muito que a bebida instantânea de Slim4Vit é um dos segredos mais bem guardados e um produto popular. Eu recomendo-o a todos que queiram restaurar a sua saúde e perder peso.
+                        </div>
+                    </div>
+                    <div class="doctor">
+                        <div class="name">Helena Sousa</div>
+                        <div class="text">
+                            <br>Dietista
+                        </div>
+                    </div>
+                    <div class="img-block">
+                        <img src="img/sign.png" alt="">
+                    </div>
+                    <div class="img-block item1">
+                        <img src="img/stamp.png" alt="">
+                    </div>
+                </div>
+                <div class="circle-block">
+                    <div class="name">Helena Sousa
+                        <div class="text">
+                            <br>Dietista
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="block9">
+            <div class="wrapper">
+                <div class="title">MILHARES DE MULHERES RECUPERAM
+                    <br><span class="pink">A SAÚDE E A HARMONIA</span></div>
+                <div class="item item1">
+                    <div class="img mob"><img src="img/rew1-mob.png"></div>
+                    <div class="img mob2"><img src="img/rew1-mob.png"></div>
+                    <div class="text">Eu tenho 36 anos, perco peso com
+                        <br>Slim4Vit há 2 meses. Ninguém
+                        <br>acredita que sou eu! Pensam que me
+                        <br>substituíram:))))
+                        <div class="author">Alina, Lisboa</div>
+                    </div>
+                </div>
+                <div class="item item2">
+                    <div class="img mob"><img src="img/rew2-mob.png"></div>
+                    <div class="img mob2"><img src="img/rew2-mob.png"></div>
+                    <div class="text">Tenho 41 anos. Uma amiga minha recomendou-me experimentar o tratamento da Slim4Vit. Uma dieta muito agradável que eu experimentei. Em
+                        <br>3 meses, foram 25 kg. O meu sonho tornou-se realidade!
+                        <div class="author" style="padding-top:15px;">Isabel, Matosinhos</div>
+                    </div>
+                </div>
+                <div class="item item3">
+                    <div class="img mob"><img src="img/rew3-mob.png"></div>
+                    <div class="img mob2"><img src="img/rew3-mob.png"></div>
+                    <div class="text">Tenho 52 anos, por profilaxia sigo o
+                        <br> tratamento da Slim4Vit todos os anos.
+                        <br>E logo em 3 anos, o meu peso
+                        <br>estabilizou-se nos 60 kg. Na altura era
+                        <br>de 89 kg.
+                        <div class="author">Vitória, França, Marselha</div>
+                    </div>
+                </div>
+                <div class="item item4" style="display: none;">
+                    <div class="img mob"><img src="img/rew4-mob.png"></div>
+                    <div class="img mob2"><img src="img/rew4-mob.png"></div>
+                    <div class="text">Passei a vida toda a fazer dietas, mas nenhuma resultou. Adorava comer doces
+                        <br>e geralmente comia muito. Quando o médico me disse que os meus problemas de coração e de tensão tinham origem na gordura, eu percebi que tinha de perder peso rapidamente, mas de forma segura.
+                        <br>A Slim4Vit era a solução para os meus problemas!
+                        <div class="author">Anabela Craveiro, Braga</div>
+                    </div>
+                </div>
+                <div class="item item5" style="display: none;">
+                    <div class="img mob"><img src="img/rew5-mob.png"></div>
+                    <div class="img mob2"><img src="img/rew5-mob.png"></div>
+                    <div class="text">Eu e o meu marido estávamos à beira do
+                        <br> divórcio. Eu não trabalhava por ter
+                        <br> problemas de saúde. Ficava em casa e
+                        <br>comia para me reconfortar. Quando, na
+                        <br>minha vida surgiu a Slim4Vit, recuperei
+                        <br> a alegria do movimento e o amor do meu
+                        <br>marido. Estou feliz!
+                        <div class="author">Valentina Casais, Maia</div>
+                    </div>
+                </div>
+                <div class="item item6" style="display: none;">
+                    <div class="img mob"><img src="img/rew6-mob.png"></div>
+                    <div class="img mob2"><img src="img/rew6-mob.png"></div>
+                    <div class="text">Antes, eu comia tudo o que me aparecia debaixo dos olhos. Agora, se ficar impaciente por comer coisas pouco saudáveis, eu tomo Slim4Vit. É muito saborosa e não me apetece comer bolinhos nem bolachas. Para mim, agora,
+                        <br> é absurdo penar no ginásio, sofrer com dietas e tentar emagrecer sem sucesso!
+                        <div class="author">Cristina, Olivais</div>
+                    </div>
+                </div>
+                <div class="more-block">
+                    <span class="more-link">
+Mais comentários sobre a bebida instantânea Slim4Vit</span>
+                    <span class="back-link" style="display: none;">Minimizar comentários
+</span>
+                </div>
+            </div>
+        </div>
+        <div class="white-block1">
+        </div>
+        <div class="block10 desk">
+            <div class="wrapper">
+                <div class="title">Modo de aplicação</div>
+                <div class="item1">
+                    <div class="text">
+                        Duas vezes ao dia (recomenda-se a manhã e a noite) meia colher de chá adicione qualquer tipo de líquido - águas, sumo, iogurte.
+                    </div>
+                </div>
+                <div class="item2">
+                    <div class="text">
+                        <br>
+                        <br> Quando sentir uma forte sensação de fome, basta tomar uma colher de chá cheia do produto.
+                        <br>
+                        <br> Passados 20 minutos, a sensação de fome desaparece.
+
+                    </div>
+                </div>
+                <div class="bottom-block">
+                    CUIDADO COM IMITAÇÕES!
+                </div>
+                <div class="sep-block"></div>
+                <div class="left-block">
+                    <div class="line1">COM A CRESCENTE POPULARIDADE DA
+                        <br> BEBIDA INSTANTÂNEA DE Slim4Vit, </div>
+                    <div class="line2">TÊM AUMENTADO MUITO AS FALSIFICAÇÕES </div>
+                    <div class="line3">A PREÇOS MUITO
+                        <br>BAIXOS.</div>
+                    <div class="prod">
+                        <img src="img/product3.png" alt="">
+                    </div>
+                </div>
+                <div class="right-block">
+                    <div class="line1">
+                        SÓ AQUI PODERÁ ADQUIRIR O PRODUTO ORIGINAL
+                    </div>
+                    <div class="line2">COM DESCONTO DE 50%</div>
+                    <form method="POST" action="order.php" class="x_order_form wv_order-form">
+                        <div class="line c-s">
+                            <div class="x_country_select">
+                                <select id="id_country" class="country-select country_select" name="id_country" style="visibility: hidden; height: 1px">
+                                   <option value="pt">Portugal</option>
+                                   <option value="at">Austria</option>
+                                   <option value="it">Italy</option>
+                                   <option value="es">Spain</option>
+                                   <option value="fr">France</option>
+                                   <option value="lv">Latvia</option>
+                                   <option value="ee">Estonia</option>
+                                   <option value="lt">Lithuania</option>
+                                   <option value="de">Germany</option>
+                                   <option value="pl">Poland</option>
+                                   <option value="hu">Hungary</option>
+                                   <option value="bg">Bulgaria</option>
+                                   <option value="RU">Russia</option>
+                             </select>
+                         </div>
+                        </div>
+                        <div class="line name-inp">
+                            <input type="text" name="name" placeholder="O seu nome" class="wv_name" required>
+                        </div>
+                        <div class="line phone-inp">
+                            <input type="text" name="phone" placeholder="O seu telefone" class="wv_phone" required>
+                        </div>
+                        <div class="button-line">
+                             <button type="submit"></button>
+                        </div>
+                        <input name="ym" type="hidden" class="" value="default">
+                        <input name="utm_source" type="hidden" class="">
+                        <input name="utm_medium" type="hidden" class="">
+                        <input name="utm_campaign" type="hidden" class="">
+                        <input name="utm_content" type="hidden" class="">
+                        <input name="utm_term" type="hidden" class="">
+                        <input name="referer" type="hidden" class="" value="default">
+                        <input name="guid" type="hidden" class="">
+                        <input name="first_guid" type="hidden" class="">
+                        <input name="landing_id" type="hidden" class="">
+                        <input name="prelanding_id" type="hidden" class="">
+                        <input name="offer_id" type="hidden" class="">
+                        <input name="url" type="hidden" class="">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="block10 mob">
+            <div class="wrapper">
+                <div class="title">Modo de aplicação</div>
+                <div class="item1">
+                    <div class="text">
+                        Duas vezes ao dia (recomenda-se a manhã e a noite) meia colher de chá adicione qualquer tipo de líquido - águas, sumo, iogurte.
+                    </div>
+                </div>
+                <div class="item2">
+                    <div class="text">
+                        Quando sentir uma forte sensação de fome, basta tomar uma colher de chá cheia do produto.
+                        <br>
+                        <br>Passados 20 minutos, a sensação de fome desaparece.
+                    </div>
+                </div>
+                <div class="bottom-block">
+                    CUIDADO COM IMITAÇÕES!
+                </div>
+                <div class="sep-block"></div>
+                <div class="left-block">
+                    <div class="line1">COM A CRESCENTE POPULARIDADE DA
+                        <br> BEBIDA INSTANTÂNEA DE Slim4Vit, </div>
+                    <div class="line2">TÊM AUMENTADO MUITO AS FALSIFICAÇÕES </div>
+                    <div class="line3">A PREÇOS MUITO
+                        <br>BAIXOS.</div>
+                    <div class="prod">
+                        <img src="img/product3.png" alt="">
+                    </div>
+                </div>
+                <div class="right-block">
+                    <div class="line1">
+                        SÓ AQUI PODERÁ ADQUIRIR O PRODUTO ORIGINAL
+                    </div>
+                    <div class="line2">COM DESCONTO DE 50%</div>
+                    <form method="POST" action="order.php" class="x_order_form wv_order-form">
+                        <div class="line c-s">
+                            <div class="x_country_select">
+                                <select id="id_country" class="country-select country_select" name="id_country" style="visibility: hidden; height: 1px">
+                                   <option value="pt">Portugal</option>
+                                   <option value="at">Austria</option>
+                                   <option value="it">Italy</option>
+                                   <option value="es">Spain</option>
+                                   <option value="fr">France</option>
+                                   <option value="lv">Latvia</option>
+                                   <option value="ee">Estonia</option>
+                                   <option value="lt">Lithuania</option>
+                                   <option value="de">Germany</option>
+                                   <option value="pl">Poland</option>
+                                   <option value="hu">Hungary</option>
+                                   <option value="bg">Bulgaria</option>
+                                   <option value="RU">Russia</option>
+                             </select>
+                         </div>
+                        </div>
+                        <div class="line name-inp">
+                            <input type="text" name="name" placeholder="O seu nome" class="wv_name" required>
+                        </div>
+                        <div class="line phone-inp">
+                            <input type="text" name="phone" placeholder="O seu telefone" class="wv_phone" required>
+                        </div>
+                        <div class="button-line">
+                             <button type="submit"></button>
+                        </div>
+                        <input name="ym" type="hidden" class="" value="default">
+                        <input name="utm_source" type="hidden" class="">
+                        <input name="utm_medium" type="hidden" class="">
+                        <input name="utm_campaign" type="hidden" class="">
+                        <input name="utm_content" type="hidden" class="">
+                        <input name="utm_term" type="hidden" class="">
+                        <input name="referer" type="hidden" class="" value="default">
+                        <input name="guid" type="hidden" class="">
+                        <input name="first_guid" type="hidden" class="">
+                        <input name="landing_id" type="hidden" class="">
+                        <input name="prelanding_id" type="hidden" class="">
+                        <input name="offer_id" type="hidden" class="">
+                        <input name="url" type="hidden" class="">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="block10 mob2">
+            <div class="wrapper">
+                <div class="title">Modo de aplicação</div>
+                <div class="item1">
+                    <div class="text">
+                        Duas vezes ao dia (recomenda-se a manhã e a noite) meia colher de chá adicione qualquer tipo de líquido - águas, sumo, iogurte.
+                    </div>
+                </div>
+                <div class="item2">
+                    <div class="text">
+                        Quando sentir uma forte sensação de fome, basta tomar uma colher de chá cheia do produto.
+                        <br>
+                        <br>Passados 20 minutos, a sensação de fome desaparece.
+                    </div>
+                </div>
+                <div class="bottom-block">
+                    CUIDADO COM IMITAÇÕES!
+                </div>
+                <div class="sep-block"></div>
+                <div class="left-block">
+                    <div class="line1">COM A CRESCENTE POPULARIDADE DA
+                        <br> BEBIDA INSTANTÂNEA DE Slim4Vit, </div>
+                    <div class="line2">TÊM AUMENTADO MUITO AS FALSIFICAÇÕES </div>
+                    <div class="line3">A PREÇOS MUITO
+                        <br>BAIXOS.</div>
+                    <div class="prod">
+                        <img src="img/product3.png" alt="">
+                    </div>
+                </div>
+                <div class="right-block">
+                    <div class="line1">
+                        SÓ AQUI PODERÁ ADQUIRIR O PRODUTO ORIGINAL
+                    </div>
+                    <div class="line2">COM DESCONTO DE 50%</div>
+                   <form method="POST" action="order.php" class="x_order_form wv_order-form">
+                        <div class="line c-s">
+                            <div class="x_country_select">
+                                <select id="id_country" class="country-select country_select" name="id_country" style="visibility: hidden; height: 1px">
+                                   <option value="pt">Portugal</option>
+                                   <option value="at">Austria</option>
+                                   <option value="it">Italy</option>
+                                   <option value="es">Spain</option>
+                                   <option value="fr">France</option>
+                                   <option value="lv">Latvia</option>
+                                   <option value="ee">Estonia</option>
+                                   <option value="lt">Lithuania</option>
+                                   <option value="de">Germany</option>
+                                   <option value="pl">Poland</option>
+                                   <option value="hu">Hungary</option>
+                                   <option value="bg">Bulgaria</option>
+                                   <option value="RU">Russia</option>
+                             </select>
+                         </div>
+                        </div>
+                        <div class="line name-inp">
+                            <input type="text" name="name" placeholder="O seu nome" class="wv_name" required>
+                        </div>
+                        <div class="line phone-inp">
+                            <input type="text" name="phone" placeholder="O seu telefone" class="wv_phone" required>
+                        </div>
+                        <div class="button-line">
+                             <button type="submit"></button>
+                        </div>
+                        <input name="ym" type="hidden" class="" value="default">
+                        <input name="utm_source" type="hidden" class="">
+                        <input name="utm_medium" type="hidden" class="">
+                        <input name="utm_campaign" type="hidden" class="">
+                        <input name="utm_content" type="hidden" class="">
+                        <input name="utm_term" type="hidden" class="">
+                        <input name="referer" type="hidden" class="" value="default">
+                        <input name="guid" type="hidden" class="">
+                        <input name="first_guid" type="hidden" class="">
+                        <input name="landing_id" type="hidden" class="">
+                        <input name="prelanding_id" type="hidden" class="">
+                        <input name="offer_id" type="hidden" class="">
+                        <input name="url" type="hidden" class="">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="block11">
+            <div class="wrapper">
+                <div class="title">Como trabalhamos</div>
+                <div class="desk">
+                    <div class="item">
+                        <div class="img-block item1">
+                            <img src="img/icon8.png" alt="">
+                        </div>
+                        <div class="img-block-icon">
+                            <img src="img/icon5.png" alt="">
+                        </div>
+                        <div class="img-block">
+                            <img src="img/icon7.png" alt="">
+                        </div>
+                        <div class="img-block-icon">
+                            <img src="img/icon5.png" alt="">
+                        </div>
+                        <div class="img-block">
+                            <img src="img/icon6.png" alt="">
+                        </div>
+                    </div>
+                    <div class="text">Faça a sua encomenda agora <br> e recebe um desconto de 
+                        <br>50% 
+                    </div>
+                    <div class="text">Aguarde pela chamada <br>do nosso operador para mais detalhes.
+                    </div>
+                    <div class="text">Sem riscos! Pague a <br>encomenda  ao recebê-la <br>no correio.
+                    </div>
+                </div>
+                <div class="mob">
+                    <div class="item">
+                        <div class="img-block item1">
+                            <img src="img/icon8.png" alt="">
+                        </div>
+                        <div class="text">Faça a sua encomenda agora <br> e recebe um desconto de 
+                        <br>50% 
+                        </div>
+                        <div class="img-block">
+                            <img src="img/icon7.png" alt="">
+                        </div>
+                        <div class="text">Aguarde pela chamada <br>do nosso operador para mais detalhes.
+                        </div>
+                        <div class="img-block">
+                            <img src="img/icon6.png" alt="">
+                        </div>
+                    </div>
+                    <div class="text">Sem riscos! Pague a <br>encomenda  ao recebê-la <br>no correio.
+                    </div>
+                </div>
+                <div class="mob2">
+                    <div class="item">
+                        <div class="img-block item1">
+                            <img src="img/icon8.png" alt="">
+                        </div>
+                        <div class="text">Faça a sua encomenda agora <br> e recebe um desconto de 
+                        <br>50% 
+                        </div>
+                        <div class="img-block">
+                            <img src="img/icon7.png" alt="">
+                        </div>
+                        <div class="text">Aguarde pela chamada <br>do nosso operador para mais detalhes.
+                        </div>
+                        <div class="img-block">
+                            <img src="img/icon6.png" alt="">
+                        </div>
+                    </div>
+                    <div class="text">Sem riscos! Pague a <br>encomenda  ao recebê-la <br>no correio.
+                    </div>
+                </div>
+                <div class="title">Aceitamos encomendas 
+                    <br><span class="pink">em toda Europa</span></div>
+            </div>
+        </div>
+        <div class="block12">
+            <div class="wrapper">
+                <div class="title">BEBIDA INSTANTÂNEA DE MISTURA DE Slim4Vit
+                     ATÉ <span class="pink"> 10 KG DE PESO </span> EM 2 SEMANAS!
+                </div>
+                <div class="title2">EVITE A OBESIDADE E REDUZA O RISCO DE INFARTE, DIABETES E HIPERTENSÃO EM 89%</div>
+                <div class="left-block">
+                    <div class="item">Desintegra a GORDURA eficazmente devido aos ácidos alfa da fruta da Slim4Vit
+                    </div>
+                    <div class="item">Reduz o risco de diabetes, e de hipertensão ao mínimo
+                    </div>
+                    <div class="item">Elimina os perigos da <br>obesidade na vida dos <br>órgãos internos
+                    </div>
+                    <div class="bottom desk">* Suprime o apetite</div>
+                    <div class="prod prod_botom">
+                        <img src="img/product.png" alt="">
+                    </div>
+                    <div class="label">
+                        <div class="line1">Preço antigo:</div>
+                        <div class="line2"><span class="landing___price__old_value wv_old-price">78</span> <span class="landing___price__currency wv_currency">eur</span></div>
+                        <div class="line3">Novo preço:</div>
+                        <div class="line4"><span class="landing___price__main_value wv_new-price">39</span></div>
+                        <div class="line5"><span class="landing___price__currency wv_currency">eur</span></div>
+                    </div>
+                </div>
+                <div class="right-block">
+                    <div class="title-form">
+                        PROMOÇÃO! <br><span class="pink">DESCONTO DE  50%</span>
+                    </div>
+                    <div class="desc-form">A promoção termina em:</div>
+                    <div class="timer-block">
+                        <div class="hours">00</div>
+                        <div class="mins">30</div>
+                        <div class="secs">00</div>
+                    </div>
+                    <form method="POST" action="order.php" class="x_order_form wv_order-form">
+                        <div class="line c-s">
+                            <div class="x_country_select">
+                                <select id="id_country" class="country-select country_select" name="id_country" style="visibility: hidden; height: 1px">
+                                 <option value="pt">Portugal</option>
+                                 <option value="at">Austria</option>
+                                 <option value="it">Italy</option>
+                                 <option value="es">Spain</option>
+                                 <option value="fr">France</option>
+                                 <option value="lv">Latvia</option>
+                                 <option value="ee">Estonia</option>
+                                 <option value="lt">Lithuania</option>
+                                 <option value="de">Germany</option>
+                                 <option value="pl">Poland</option>
+                                 <option value="hu">Hungary</option>
+                                 <option value="bg">Bulgaria</option>
+                                 <option value="RU">Russia</option>
+                             </select>
+                         </div>
+                        </div>
+                        <div class="line name-inp">
+                            <input type="text" name="name" placeholder="O seu nome" class="wv_name" required>
+                        </div>
+                        <div class="line phone-inp">
+                            <input type="text" name="phone" placeholder="O seu telefone" class="wv_phone" required>
+                        </div>
+                        <div class="button-line">
+                             <button type="submit"></button>
+                        </div>
+                        <input name="ym" type="hidden" class="" value="default">
+                        <input name="utm_source" type="hidden" class="">
+                        <input name="utm_medium" type="hidden" class="">
+                        <input name="utm_campaign" type="hidden" class="">
+                        <input name="utm_content" type="hidden" class="">
+                        <input name="utm_term" type="hidden" class="">
+                        <input name="referer" type="hidden" class="" value="default">
+                        <input name="guid" type="hidden" class="">
+                        <input name="first_guid" type="hidden" class="">
+                        <input name="landing_id" type="hidden" class="">
+                        <input name="prelanding_id" type="hidden" class="">
+                        <input name="offer_id" type="hidden" class="">
+                        <input name="url" type="hidden" class="">
+                    </form>
+                    <div class="left-text">
+                       Unidades <br>restantes <br>em promoção:
+                    </div>
+                    <div class="right-text">
+                        <div class="big">7</div>
+                        <div class="small">unidades</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="wrapper">
+                <div class="req-line">Ao clicar no botão Encomendar, você concorda com o processamento dos seus dados pessoais<br></div>
+                <div class="conflink">
+                    <span class="policy"></span>
+                    <a href="">Política de confidencialidade</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="hide">
+        <div class="box-modal" id="modalForm">
+            <div class="box-modal_close arcticmodal-close"></div>
+            <div class="title1">EVITE A OBESIDADE PERIGOSA! 
+                <br>PERCA PESO FÁCIL E RAPIDAMENTE COM SABOR!</div>
+            <div class="title2">DESCONTO DE  50%</div>
+            <div class="left-block">
+                <div class="label">
+                    <div class="line1">Preço antigo:</div>
+                    <div class="line2"><span class="landing___price__old_value wv_old-price">78</span> <span class="landing___price__currency wv_currency">eur</span></div>
+                    <div class="line3">Novo preço:</div>
+                    <div class="line4"><span class="landing___price__main_value wv_new-price">39</span></div>
+                    <div class="line5"><span class="landing___price__currency wv_currency">eur</span></div>
+                </div>
+                <img src="img/product.png" alt="">
+            </div>
+            <div class="right-block">
+                <div class="line-desc">Preencha os seus dados no formulário abaixo</div>
+                <form method="POST" action="order.php" class="x_order_form wv_order-form">
+                    <div class="line c-s">
+                        <div class="x_country_select">
+                                <select id="id_country" class="country-select country_select" name="id_country" style="visibility: hidden; height: 1px">
+                                   <option value="pt">Portugal</option>
+                                   <option value="at">Austria</option>
+                                   <option value="it">Italy</option>
+                                   <option value="es">Spain</option>
+                                   <option value="fr">France</option>
+                                   <option value="lv">Latvia</option>
+                                   <option value="ee">Estonia</option>
+                                   <option value="lt">Lithuania</option>
+                                   <option value="de">Germany</option>
+                                   <option value="pl">Poland</option>
+                                   <option value="hu">Hungary</option>
+                                   <option value="bg">Bulgaria</option>
+                                   <option value="RU">Russia</option>
+                             </select>
+                         </div>
+                    </div>
+                    <div class="line name-inp">
+                            <input type="text" name="name" placeholder="O seu nome" class="wv_name" required>
+                        </div>
+                        <div class="line phone-inp">
+                            <input type="text" name="phone" placeholder="O seu telefone" class="wv_phone" required>
+                        </div>
+                        <div class="button-line">
+                             <button type="submit"></button>
+                        </div>
+                        <input name="ym" type="hidden" class="" value="default">
+                        <input name="utm_source" type="hidden" class="">
+                        <input name="utm_medium" type="hidden" class="">
+                        <input name="utm_campaign" type="hidden" class="">
+                        <input name="utm_content" type="hidden" class="">
+                        <input name="utm_term" type="hidden" class="">
+                        <input name="referer" type="hidden" class="" value="default">
+                        <input name="guid" type="hidden" class="">
+                        <input name="first_guid" type="hidden" class="">
+                        <input name="landing_id" type="hidden" class="">
+                        <input name="prelanding_id" type="hidden" class="">
+                        <input name="offer_id" type="hidden" class="">
+                        <input name="url" type="hidden" class="">
+                    </form>
+                <div class="line-bot"><img src="img/icon9.png" alt="">Os seus dados sob a proteção</div>
+            </div>
+        </div>
+    </div>
+   
+    <div class="yvedw">
+        <div class="yved yvedf1">
+            <img src="img/yico.png" alt="" class="yvedi">
+            <div class="yvedvt">
+                <div class="yvedt">Alexandra Luís,
+                    <br> Braga, encomendou por  <span class="landing___price__main_value wv_new-price">39</span> <span class="landing___price__currency wv_currency">eur</span>, quantidade 1 unidade</div>
+            </div>
+        </div>
+        <div class="yved yvedf1">
+            <img src="img/yico.png" alt="" class="yvedi">
+            <div class="yvedvt">
+                <div class="yvedt">Paula Mateus,
+                    <br>Lisboa, encomendou por <span class="landing___price__main_value wv_new-price">39</span> <span class="landing___price__currency wv_currency">eur</span>, quantidade 1 unidade</div>
+            </div>
+        </div>
+        <div class="yved yvedf1">
+            <img src="img/yico.png" alt="" class="yvedi">
+            <div class="yvedvt">
+                <div class="yvedt">Vanda Antunes,
+                    <br> Évora, encomendou por <span class="landing___price__main_value wv_new-price">39</span> <span class="landing___price__currency wv_currency">eur</span>, quantidade 1 unidade</div>
+            </div>
+        </div>
+        <div class="yved yvedf1">
+            <img src="img/yico.png" alt="" class="yvedi">
+            <div class="yvedvt">
+                <div class="yvedt">Elvira Ismael,
+                    <br> Santarém, encomendou por <span class="landing___price__main_value wv_new-price">39</span> <span class="landing___price__currency wv_currency">eur</span>, quantidade 1 unidadeт</div>
+            </div>
+        </div>
+        <div class="yved yvedf1">
+            <img src="img/yico.png" alt="" class="yvedi">
+            <div class="yvedvt">
+                <div class="yvedt">Elsa Branco,
+                    <br> Porto, encomendou por <span class="landing___price__main_value wv_new-price">39</span> <span class="landing___price__currency wv_currency">eur</span>, quantidade 1 unidade</div>
+            </div>
+        </div>
+        <div class="yved yvedf1">
+            <img src="img/yico.png" alt="" class="yvedi">
+            <div class="yvedvt">
+                <div class="yvedt">Luisa Gardénia,
+                    <br> Leiria, encomendou por <span class="landing___price__main_value wv_new-price">39</span> <span class="landing___price__currency wv_currency">eur</span>, quantidade 1 unidade</div>
+            </div>
+        </div>
+        <div class="yved yvedf1">
+            <img src="img/yico.png" alt="" class="yvedi">
+            <div class="yvedvt">
+                <div class="yvedt">Alexandra Cartel,
+                    <br> Lisboa, encomendou por <span class="landing___price__main_value wv_new-price">39</span> <span class="landing___price__currency wv_currency">eur</span>, quantidade 1 unidade</div>
+            </div>
+        </div>
+        <div class="yved yvedf1">
+            <img src="img/yico.png" alt="" class="yvedi">
+            <div class="yvedvt">
+                <div class="yvedt">Vitória Bartolomeu,
+                    <br> Gaia, encomendou por <span class="landing___price__main_value wv_new-price">39</span> <span class="landing___price__currency wv_currency">eur</span>, quantidade 1 unidade</div>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+    <noscript><img src="//tracker.webvork.ru/pixel.php?offer_id=1&landing_id=1" alt=""></noscript>
+    <script src="js/webvork.js"></script>
+</body>
+</html>
